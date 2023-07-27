@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class StartSpringController {
+public class CourseController {
 	
 	@RequestMapping("/courses")
 	public List<Course> fetchAllCources(){
